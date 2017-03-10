@@ -10,17 +10,8 @@ $(document).ready(function () { //on DOM ready, bind clicks
 		$(".numbah").each(function () {
 
 			var.numbah = $(this),
-				x_value = parseInt('#x'.val()),
-				y_value = parseInt('#y'.val()),
-
-				//add the values
-				update_total_add(x_value, y_value);
-			//subtract the values
-			update_total_subtract(x_value, y_value);
-			//divide the values
-			update_total_divide(x_value, y_value);
-			//multiply the values
-			update_total_multiply(x_value, y_value);
+				x_value = parseFloat($("#x").val()); //store the number of input 1
+			y_value = parseFloat($("#y").val()); //store the number of input 2
 
 		}); //end each
 
