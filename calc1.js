@@ -1,4 +1,3 @@
-//first declare counters for total calories and total cost globally and then set to zero.
 var totalAdd = 0,
 	totalSubtract = 0;
 totalDivide = 0,
@@ -10,7 +9,7 @@ $(document).ready(function () { //on DOM ready, bind clicks
 
 		$(".numbah").each(function () {
 
-			var numbah = $(this),
+			var.numbah = $(this),
 				x_value = parseInt('#x'.val()),
 				y_value = parseInt('#y'.val()),
 

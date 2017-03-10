@@ -23,9 +23,11 @@
     </head>
 
     <body>
-
         <div id="calc">
-            <form>
+
+
+
+            <form> Enter the numbers for x and y so the calculator can help you do some basic math.
                 <input type="text" class="numbah" id="x" placeholder="Insert value for X" />
                 <input type="text" class="numbah" id="y" placeholder="Insert value for Y" />
                 <input id="compute" type="button" value="compute" />
@@ -33,10 +35,13 @@
 
             <form>
                 <!-- THESE READONLY FIELDS WILL HOLD THE RESPONSE FROM YOUR JS, BUT USERS WON'T ACCIDENTALLY TYPE INTO THEM -->
-                <input type="text" id="add" readonly /> add
-                <input type="text" id="multiply" readonly /> multiply
-                <input type="text" id="divide" readonly /> divide
-                <input type="text" id="subtract" readonly /> subtract
+                When I add your first number, X, to the second number, Y, I get: <input type="text" id="add" readonly />
+                <p>
+                    When I Multiply your first number, X, by the second number, Y, I get: <input type="text" id="multiply" readonly /> </p>
+                <p>
+                    When I divide your first number, X, by the second number, Y, I get: <input type="text" id="divide" readonly /> </p>
+                When I subtract your first number, X, from the second number, Y, I get: <input type="text" id="subtract" readonly />
+
             </form>
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
